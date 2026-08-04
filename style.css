@@ -9,16 +9,16 @@ body {
 }
 
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   body {
-    font-size: 16px;
+   background-color: #779cc0;
   }
 }
 
 
-@media (min-width: 1024px) {
-  .contenedor {
-    display: flex;
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  body {
+    background-color: #779cc0;
   }
 }
 }
